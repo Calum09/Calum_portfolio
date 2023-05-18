@@ -1,4 +1,6 @@
 import React from 'react';
+import './Intro.css'
+
 
 export default function Intro() {
 
@@ -8,7 +10,7 @@ export default function Intro() {
             Hi, I am <strong>Calum Laverick</strong>
         </h1>
         <p className="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img src="img/dev-jane-01.jpg" alt="a picture of Calum Laverick smiling"/>
+        <img src="img/dev-jane-01.jpg" alt="a picture of Calum Laverick smiling" className="intro__img"/>
     </section>
     )
 }
