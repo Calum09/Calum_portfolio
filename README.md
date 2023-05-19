@@ -2,7 +2,7 @@
 
 The first iteration of my website built using react.js
 
-Check it out here - https://calumdev.netlify.app/
+To see it out here - https://calumdev.netlify.app/
 
 ## Set-Up
 
