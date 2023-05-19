@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar.jsx'
 import Intro from './Components/Intro.jsx'
 import MyServices from './Components/MyServices.jsx'
 import AboutMe from './Components/AboutMe.jsx'
-import MyWork from './Components/MyWork.jsx'
+import Projects from './Components/Projects.jsx'
 import Footer from './Components/Footer.jsx'
 
 
@@ -14,9 +14,8 @@ function App() {
     <div>
       <Navbar />
       <Intro />
-      <MyServices />
       <AboutMe />
-      <MyWork />
+      <Projects />
       <Footer />
     </div>
   )

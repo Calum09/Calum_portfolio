@@ -9,7 +9,7 @@ import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 export default function Footer() {
    
    return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
     <a href="mailto:calumlaverick09@gmail.com" className="footer__link">calumlaverick09@gmail.com</a>
 
     <ul className="social-list">
@@ -20,16 +20,6 @@ export default function Footer() {
     </li>
     <li className="social-list__item">
         <a className="social-list__link" href="https://www.linkedin.com/in/calum-laverick-5a9133162/">
-        <FontAwesomeIcon icon={faLinkedinIn} />
-        </a>
-    </li>
-    <li className="social-list__item">
-        <a className="social-list__link" href="#">
-        <FontAwesomeIcon icon={faGithub} />
-        </a>
-    </li>
-    <li className="social-list__item">
-        <a className="social-list__link" href="#">
         <FontAwesomeIcon icon={faLinkedinIn} />
         </a>
     </li>

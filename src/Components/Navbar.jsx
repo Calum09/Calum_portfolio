@@ -29,9 +29,9 @@ export default function Navbar() {
         <nav className="nav ">
             <ul className="nav__list">
                 <li className="nav__item"><a href="#home" className="nav__link" onClick={handleClickNavLink}>Home</a></li>
-                <li className="nav__item"><a href="#services" className="nav__link" onClick={handleClickNavLink}>My Services</a></li>
                 <li className="nav__item"><a href="#about" className="nav__link" onClick={handleClickNavLink}>About me</a></li>
-                <li className="nav__item"><a href="#work" className="nav__link" onClick={handleClickNavLink}>My Work</a></li>
+                <li className="nav__item"><a href="#projects" className="nav__link" onClick={handleClickNavLink}>Projects</a></li>
+                <li className="nav__item"><a href="#contact" className="nav__link" onClick={handleClickNavLink}>Contact</a></li>
             </ul>
         </nav>
     </header>

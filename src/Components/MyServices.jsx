@@ -33,7 +33,7 @@ export default function Intro() {
     </div> 
 </div>
 
-        <a href="#work" class="btn">My Work</a>
+        <a href="#projects" class="btn">My Projects</a>
 </section>
     )
 }

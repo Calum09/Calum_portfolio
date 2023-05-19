@@ -18,10 +18,10 @@
             <p>BA in Computing and History from the University of Kent.</p>
 
             <h2>Tools & Tech</h2>
-            <p>React.js | JavaScript | HTML & CSS | Node.js</p>
+            <p>JavaScript | Python | HTML | CSS | React.js | Redux | Node.js | Express.js | PostgreSQL | Mocha & Chai | Jest | <br></br>  
+               Git & Version Control</p>
         </div>
      
-        <img src="img/devjane-02.jpg" alt="Calum leaning against a bus" className="about-me__img"/>
      </section>
     )
  }
