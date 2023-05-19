@@ -1,6 +1,16 @@
-### React-Portfolio
+## Calum09.github.io - v1
 
-My portfolio created in React: Calum09.github.io
+The first iteration of my website built using react.js
+
+## Set-Up
+
+### Install the dependencies
+
+npm install
+
+### Start the development server
+npm run dev
+
 
 ---
 ### Tools & Tech
