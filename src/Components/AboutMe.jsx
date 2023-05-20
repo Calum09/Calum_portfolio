@@ -17,7 +17,7 @@
             </p>
             <p>BA in Computing and History from the University of Kent.</p>
 
-            <h2>Tools & Tech</h2>
+            <h2 className="section__title section__title--about">Tools & Tech</h2>
             <p>JavaScript | Python | HTML | CSS | React.js | Redux | Node.js | Express.js | PostgreSQL | Mocha & Chai | Jest |   
                Git & Version Control</p>
         </div>

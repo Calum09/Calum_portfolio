@@ -5,17 +5,17 @@
     color: var(--clr-light);
 
 }
-
 .section__title--about {
-    color: var(--clr-light);
-}
-
-h2 {
     color: var(--clr-light);
 }
 
 .section__subtitle--about {
     color: var(--clr-dark);
+}
+
+.about-me__body {
+    color: var(--clr-light);
+
 }
 
 @media (min-width: 600px) {
