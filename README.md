@@ -8,10 +8,11 @@ To see it out live - https://calumdev.netlify.app/
 
 ### Install the dependencies
 
-npm install
+use npm install
 
 ### Start the development server
-npm run dev
+
+use npm run dev
 
 
 ---
