@@ -1,4 +1,4 @@
-## Calum09.github.io - v1
+## Personal Website v1
 
 The first iteration of my website built using react.js
 
