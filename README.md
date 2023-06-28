@@ -1,4 +1,5 @@
 ## Personal Website v1
+[![Netlify Status](https://api.netlify.com/api/v1/badges/72d2f676-a9e3-4c34-8495-4f9e70c8cffd/deploy-status)](https://app.netlify.com/sites/calumdev/deploys)
 
 The first iteration of my website built using react.js
 
