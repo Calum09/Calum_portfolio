@@ -11,7 +11,7 @@
         <p className="section__subtitle section__subtitle--about">Software Engineer based out of London</p>
         
         <div className="about-me__body">
-            <p>4 years of experience in the games industry. With a background in QA testing and digital operations.
+            <p>Software Engineer with 4 years of experience in the games industry. With a background in QA testing and digital operations.
             I've worked at top companies including Omeda Studios and Creative Assembly, 
             contributing to the development of the Total War series and Predecessor.
             </p>
