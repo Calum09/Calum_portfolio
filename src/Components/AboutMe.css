@@ -18,6 +18,14 @@
 
 }
 
+a {
+    color: var(--clr-accent);
+    text-decoration: none;
+
+}
+
+
+
 @media (min-width: 600px) {
     .about-me { 
         display: grid;
