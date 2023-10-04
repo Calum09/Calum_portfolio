@@ -73,3 +73,13 @@ p {
 .portfolio-description + .portfolio-description {
   margin-left: 10em;
 }
+
+
+@media (min-width: 600px) {
+  a {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
