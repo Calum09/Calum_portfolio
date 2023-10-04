@@ -9,8 +9,23 @@ export default function Projects() {
         A selection of my projects
       </p>
 
-      <div className="portfolio">
-        <div className="portfolio__item">
+
+      <div className="portfolio__item">
+          <a href="">
+            <img
+              src="/Images/Expert.PNG"
+              alt="Expert"
+              className="portfolio__img"
+            />
+          </a>
+          <h3>Expert</h3>
+          <h4>React.js, Next.js, HTML, TailwindCSS, TypeScript, Shadcn UI, CLerk and Prisma</h4>
+          <p className="portfolio-description">
+            A one stop solution for all your AI needs! Currently under construction, development can be viewed on Github - <a className="social-list__link" href="https://github.com/Calum09/AI-Expert">AI Expert</a>
+          </p>
+        </div>
+
+      <div className="portfolio__item">
           <a href="https://shopping-list-calumlav.netlify.app/">
             <img
               src="/Images/Shopping-List.png"
@@ -69,7 +84,6 @@ export default function Projects() {
           <h4>HTML & CSS</h4>
           <p className="portfolio-description">A login landing page</p>
         </div>
-      </div>
     </section>
   );
 }
