@@ -10,12 +10,7 @@ export default function AboutMe() {
       </p>
 
       <div className="about-me__body">
-        <p>
-          Software Engineer proficient in frontend and backend, currently
-          working with TypeScript, TailwindCSS, React.js, Next.js, Node.js,
-          Shadcn UI, Prisma and Git to create a one stop site for all your AI
-          needs
-        </p>
+        <p>Software Engineer proficient in frontend and backend.</p>
         <p>BA in Computing and History from the University of Kent.</p>
 
         <h2 className="section__title section__title--about">Tools & Tech</h2>

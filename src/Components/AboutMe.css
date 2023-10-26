@@ -1,74 +1,48 @@
 /*  About Me section  */
 
 .about-me {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
-
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
 .section__title--about {
-    color: var(--clr-light);
+  color: var(--clr-light);
 }
 
 .section__subtitle--about {
-    color: var(--clr-dark);
+  color: var(--clr-dark);
 }
 
 .about-me__body {
-    color: var(--clr-light);
-
+  color: var(--clr-light);
 }
 
 a {
-    color: var(--clr-accent);
-    text-decoration: none;
-
+  color: var(--clr-accent);
+  text-decoration: none;
 }
-
-
 
 @media (min-width: 600px) {
-    .about-me { 
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "title"
-            "subtitle"
-            "text";
-        grid-column-gap: 2em;
-    }
-    
-    .section__title--about {
-        grid-area: title;
-    }
-    
-    .section__subtitle--about {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        position: relative;
-        left: -1em;
-        width: calc(100% + 2em);
-        padding-left: 1em;
-        padding-right: calc(200px + 4em);
-    }
-    
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "subtitle"
+      "text";
+    grid-column-gap: 2em;
+  }
 
+  .section__title--about {
+    grid-area: title;
+  }
+
+  .section__subtitle--about {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    position: relative;
+    left: -1em;
+    width: calc(100% + 2em);
+    padding-left: 1em;
+    padding-right: calc(200px + 4em);
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
