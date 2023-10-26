@@ -24,7 +24,7 @@ export default function AboutMe() {
           PostgreSQL
         </p>
         <p>
-          <b>Frameworks:</b> React.js, Next.js,
+          <b>Frameworks:</b> React.js, Next.js, Tailwind CSS
         </p>
         <p>
           <b>Libraries:</b> Node.js, Express.js, Redux
