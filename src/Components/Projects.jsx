@@ -9,10 +9,9 @@ export default function Projects() {
         A selection of my projects
       </p>
 
-
       <div className="portfolio">
-            <div className="portfolio__item">
-          <a href="">
+        <div className="portfolio__item">
+          <a href="https://ai-expert-weld.vercel.app/">
             <img
               src="/Images/Expert.PNG"
               alt="Expert"
@@ -20,15 +19,18 @@ export default function Projects() {
             />
           </a>
           <h3>Expert</h3>
-          <h4>React.js, Next.js, HTML, TailwindCSS, TypeScript, Shadcn UI, CLerk and Prisma</h4>
+          <h4>
+            React.js, Next.js, HTML, TailwindCSS, TypeScript, Shadcn UI, Clerk,
+            Crisp, Prisma and deployed on Vercel
+          </h4>
           <p className="portfolio-description">
-            A one stop solution for all your AI needs! Currently under construction, development can be viewed on Github - <a className="social-list__link" href="https://github.com/Calum09/AI-Expert">AI Expert</a>
+            A one stop solution for all your AI needs!
           </p>
-          </div>
         </div>
+      </div>
 
-          <div className="portfolio">
-            <div className="portfolio__item">
+      <div className="portfolio">
+        <div className="portfolio__item">
           <a href="https://shopping-list-calumlav.netlify.app/">
             <img
               src="/Images/Shopping-List.png"
@@ -41,10 +43,10 @@ export default function Projects() {
           <p className="portfolio-description">
             A shopping list tracker to keep your groceries all in one place
           </p>
-     </div>
         </div>
-             <div className="portfolio">
-            <div className="portfolio__item">
+      </div>
+      <div className="portfolio">
+        <div className="portfolio__item">
           <a href="https://calum09.github.io/Film-Finder/">
             <img
               src="/Images/Film Guide.png"
@@ -58,10 +60,10 @@ export default function Projects() {
             Film Finder is a web app that uses the OMDB api to display
             information about the film you have searched
           </p>
-     </div>
         </div>
-              <div className="portfolio">
-            <div className="portfolio__item">
+      </div>
+      <div className="portfolio">
+        <div className="portfolio__item">
           <a href="https://calum09.github.io/WeatherApp/">
             <img
               src="/Images/weather-app.png"
@@ -75,10 +77,10 @@ export default function Projects() {
             A weather app created using the Open Weather API to display the
             current weather in a given city
           </p>
-     </div>
         </div>
-             <div className="portfolio">
-            <div className="portfolio__item">
+      </div>
+      <div className="portfolio">
+        <div className="portfolio__item">
           <a href="https://calum09.github.io/Login-Page/">
             <img
               src="/Images/login-page.png"
@@ -89,8 +91,8 @@ export default function Projects() {
           <h3>Login Page</h3>
           <h4>HTML & CSS</h4>
           <p className="portfolio-description">A login landing page</p>
-          </div>
         </div>
+      </div>
     </section>
   );
 }
