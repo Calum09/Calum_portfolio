@@ -1,29 +1,30 @@
-import React from 'react'
-import './Footer.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
-
-
-
+import React from "react";
+import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
-   
-   return (
+  return (
     <footer className="footer" id="contact">
-    <a href="mailto:calumlaverick09@gmail.com" className="footer__link">calumlaverick09@gmail.com</a>
+      <a href="mailto:calumlaverick09@gmail.com" className="footer__link">
+        calumlaverick09@gmail.com
+      </a>
 
-    <ul className="social-list">
-    <li className="social-list__item">
-        <a className="social-list__link" href="https://github.com/Calum09">
-        <FontAwesomeIcon icon={faGithub} />
-        </a>
-    </li>
-    <li className="social-list__item">
-        <a className="social-list__link" href="https://www.linkedin.com/in/calum-laverick-5a9133162/">
-        <FontAwesomeIcon icon={faLinkedinIn} />
-        </a>
-    </li>
-    </ul>
-</footer>
-   )
+      <ul className="social-list">
+        <li className="social-list__item">
+          <a className="social-list__link" href="https://github.com/Calum09">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </li>
+        <li className="social-list__item">
+          <a
+            className="social-list__link"
+            href="https://www.linkedin.com/in/calum-laverick/"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} />
+          </a>
+        </li>
+      </ul>
+    </footer>
+  );
 }
